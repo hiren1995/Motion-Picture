@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Motion Picture
+
+  Created by LogicalWings Mac on 26/04/19.
+  Copyright © 2019 Hiren Kadam. All rights reserved.
+*/
+
+
+// Global
+
+"str_ok"                  =       "OK";
+"str_cancel"              =       "Cancel";
+
+// Splash ViewController
+
+"str_appName"             =       "Motion Picture";
+"str_googleSignin"        =       "Sign in with Google";
+
+// Home ViewController
+"str_logout"              =       "Logout";
+"str_alert_logout"        =       "Are you sure you want to Logout?";
+
+// ProfileViewController
+"str_title_homeVC"  =       "Profile";

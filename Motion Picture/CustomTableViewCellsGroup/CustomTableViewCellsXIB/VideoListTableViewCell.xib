@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="151" id="KGk-i7-Jjw" customClass="VideoListTableViewCell" customModule="Motion_Picture" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="466" height="151"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="466" height="150.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaA-5z-rPm">
+                        <rect key="frame" x="8" y="8" width="450" height="129"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nDt-vO-Svd">
+                                <rect key="frame" x="242" y="8" width="200" height="113"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yo Yo Honey Singh" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHa-RU-h83">
+                                        <rect key="frame" x="8" y="8" width="184" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yo Yo Honey Singh.jjijijijjijijijijijijijijijijjijijijijijijjijijilkjkjlkjkkjbjvgvnmmnvnmvnmvmnnmvmnvnvnvnvnmvmnvnvm" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VtV-BV-O6r">
+                                        <rect key="frame" x="8" y="38" width="184" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="PF3-J7-FzZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="VtV-BV-O6r" secondAttribute="bottom" constant="5" id="5Ef-OR-VlL"/>
+                                    <constraint firstAttribute="width" constant="200" id="7Lp-1n-CNv"/>
+                                    <constraint firstAttribute="trailing" secondItem="VtV-BV-O6r" secondAttribute="trailing" constant="8" id="9Xg-ec-SHZ"/>
+                                    <constraint firstItem="VtV-BV-O6r" firstAttribute="top" secondItem="zHa-RU-h83" secondAttribute="bottom" id="BAy-Iw-F7w"/>
+                                    <constraint firstItem="zHa-RU-h83" firstAttribute="top" secondItem="nDt-vO-Svd" secondAttribute="top" constant="8" id="BKw-hh-eol"/>
+                                    <constraint firstItem="zHa-RU-h83" firstAttribute="leading" secondItem="nDt-vO-Svd" secondAttribute="leading" constant="8" id="b4B-zK-9pF"/>
+                                    <constraint firstItem="VtV-BV-O6r" firstAttribute="leading" secondItem="nDt-vO-Svd" secondAttribute="leading" constant="8" id="eWt-Bp-w9Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="zHa-RU-h83" secondAttribute="trailing" constant="8" id="vhD-O2-maP"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BigBuckBunny" translatesAutoresizingMaskIntoConstraints="NO" id="jM4-hM-Zew">
+                                <rect key="frame" x="0.0" y="8" width="234" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="113" id="oWI-2j-e5v"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="nDt-vO-Svd" secondAttribute="bottom" constant="8" id="FR5-cO-Yqr"/>
+                            <constraint firstItem="jM4-hM-Zew" firstAttribute="top" secondItem="RaA-5z-rPm" secondAttribute="top" constant="8" id="G9o-lI-5vu"/>
+                            <constraint firstAttribute="bottom" secondItem="jM4-hM-Zew" secondAttribute="bottom" constant="8" id="ROV-QI-juq"/>
+                            <constraint firstAttribute="trailing" secondItem="nDt-vO-Svd" secondAttribute="trailing" constant="8" id="Xef-Ug-hXF"/>
+                            <constraint firstItem="nDt-vO-Svd" firstAttribute="top" secondItem="RaA-5z-rPm" secondAttribute="top" constant="8" id="cMy-Ty-i0W"/>
+                            <constraint firstItem="jM4-hM-Zew" firstAttribute="leading" secondItem="RaA-5z-rPm" secondAttribute="leading" id="kyT-oj-EC5"/>
+                            <constraint firstItem="nDt-vO-Svd" firstAttribute="leading" secondItem="jM4-hM-Zew" secondAttribute="trailing" constant="8" id="xuC-UK-JbS"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="ViewcornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="RaA-5z-rPm" secondAttribute="bottom" constant="13.5" id="7eu-C3-b0S"/>
+                    <constraint firstItem="RaA-5z-rPm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="JeT-kZ-4wy"/>
+                    <constraint firstAttribute="trailing" secondItem="RaA-5z-rPm" secondAttribute="trailing" constant="8" id="O5G-gg-3wi"/>
+                    <constraint firstItem="RaA-5z-rPm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="eOg-HF-wb6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ViewBackground" destination="RaA-5z-rPm" id="Vb9-9U-eQs"/>
+                <outlet property="imgThumbnail" destination="jM4-hM-Zew" id="S54-4k-6Wi"/>
+                <outlet property="lblVideoDescription" destination="VtV-BV-O6r" id="hnv-Jv-SV0"/>
+                <outlet property="lblVideoTitle" destination="zHa-RU-h83" id="SIs-54-puy"/>
+            </connections>
+            <point key="canvasLocation" x="102.89855072463769" y="68.638392857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="BigBuckBunny" width="240" height="180"/>
+    </resources>
+</document>

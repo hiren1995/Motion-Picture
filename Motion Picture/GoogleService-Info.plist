@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>77040029690-u3q018s0rp54l9qu4ufgelvqnua7toq9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.77040029690-u3q018s0rp54l9qu4ufgelvqnua7toq9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAxID-YqMFb44OpF442y75HHuwXBgvPqWU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>77040029690</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kadamhiren.Motion-Picture</string>
+	<key>PROJECT_ID</key>
+	<string>motion-picture-238813</string>
+	<key>STORAGE_BUCKET</key>
+	<string>motion-picture-238813.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:77040029690:ios:45b5356cf6fb884b</string>
+	<key>DATABASE_URL</key>
+	<string>https://motion-picture-238813.firebaseio.com</string>
+</dict>
+</plist>
